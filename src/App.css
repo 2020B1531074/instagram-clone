@@ -1,0 +1,48 @@
+.App {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+ display: flex;
+}
+.leftSideHome{
+  flex: 0.15;
+  padding: 25px 10px;
+ 
+
+}
+.middleSide{
+  flex: 0.5;
+  border-left: 1px solid #e1e1e1;
+
+}
+.rightSide{
+  flex:0.35;
+  
+}
+@media  screen and (min-width:920px) and (max-width:1140px) {
+  .rightSide{
+    display: none;
+
+  }
+  .leftSideHome{
+    flex:0.2;
+  }
+  .middleSide{
+    flex: 0.8;
+  }
+}
+@media  screen and (min-width:320px) and (max-width:1020px) {
+  .rightSide{
+    display: none;
+
+  }
+  .leftSideHome{
+    display: none;
+  }
+  .middleSide{
+    flex: 1;
+  }
+}
+
+

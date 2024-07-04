@@ -1,0 +1,95 @@
+.rightSideHome {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.topProfileRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.leftRightProfile {
+    display: flex;
+    align-items: center;
+}
+
+.imageDivRightSide {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imageRightSideProfile {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.userNameBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.userNameRightSide {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.userFullName {
+    color: #999999;
+    font-size: 12px;
+}
+
+.switchBtn {
+    color: #0095F6;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: auto;  
+}
+
+.bottomRightSide {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.suggestedBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.suggestedForYou {
+    flex-grow: 1;
+}
+
+.seeAll {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.followBlockRightSide{
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+gap:10px;
+}
+.topProfileRightBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}

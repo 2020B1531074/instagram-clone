@@ -1,0 +1,161 @@
+.middleHomeSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.storyBlock {
+    width: 630px;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    width: 100%;
+    gap: 13px;
+}
+
+.storyParticular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.imageDiv {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.statusImg {
+    width: 100%;
+    height: auto;
+}
+
+.profileName {
+    font-size: 12px;
+}
+
+.postSection {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.postInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.postInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.postInfoUserName, .timingInfo {
+    font-size: 14px;
+}
+
+.postImg {
+    margin-top: 10px;
+}
+
+.postImage {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.iconsBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.leftIcon {
+    display: flex;
+    gap: 10px;
+}
+
+.bookmarkIcon {
+    cursor: pointer;
+}
+
+.likeSection {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.imagesLike {
+    display: flex;
+    margin-right: 10px;
+}
+
+.likeImg {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: -10px;
+}
+
+.noOfLikes {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.postAbout {
+    display: flex;
+    margin-top: 10px;
+}
+
+.postAboutName {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.infoComment {
+    font-size: 14px;
+}
+
+.noOfComment, .AddComment {
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+@media  screen and (min-width:320px) and (max-width:1020px) {
+    .middleHomeSide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0px 1px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .storyBlock{
+        width: 100vw;
+    }
+    .postSection{
+        width: 100%;
+    }
+    
+  }
